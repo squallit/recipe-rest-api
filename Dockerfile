@@ -3,7 +3,7 @@ MAINTAINER Squallit
 
 ENV PYTHONUNBUFFERED 1
 
-# Install dependencies
+# Install dependencies from requirements.txt
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
